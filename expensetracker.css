@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    padding :20px;
+    margin:20px;
+    background-color: azure;
+    box-shadow:0 2px 4px rosybrown;
+    border-radius: 10px;
+}
+#description{
+    width:1000px;
+    height:30px;
+    padding :20px;
+    margin:20px;
+
+}
+#category{
+    width:1050px;
+    height:60px;
+    padding :20px;
+    margin:20px;
+    
+
+}
+#amount{
+    width:1000px;
+    height:30px;
+    padding :20px;
+    margin:20px;
+}
+#submission{
+    width:1050px;
+    height:60px;
+    padding :20px;
+    margin:20px;
+    background-color: #4caf5d;
+    color:white;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid white;
+    text-align: left;
+    padding:8px;
+}
+th{
+    background-color: #4caf5d;
+    color:white;
+
+}
